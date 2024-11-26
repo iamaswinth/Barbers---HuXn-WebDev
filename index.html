@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Barbers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+
+    <header class="header">
+        <nav class="nav">
+            <h1 class="logo">Barbers</h1>
+            <ul id="menulist">
+                <li><a href="">Home</a></li>
+                <li><a href="">Experience</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+
+            <div class="menu-icons" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header end -->
+
+    <!-- Section one start -->
+
+    <section class="content_container">
+        <section class="header_content">
+            <h1 class="header_heading">
+                THE <br>
+                BARBERS
+            </h1>
+
+            <p class="header_sub-heading">
+                Barbers is a person who occupation is mainly to cut dress groom style and shave men's and boy's hair.
+            </p>
+
+            <div class="btn-container">
+                <a href="" class="main-btn">Learn More</a>
+            </div>
+        </section>
+
+        <section class="header_img-container">
+            <img class="header_img img-one" src="assets/jakob-owens-lkMJcGDZLVs-unsplash.jpg" alt="">
+            
+            <img class="header_img img-two" src="assets/stephan-louis-L3s5QySz5UM-unsplash.jpg" alt="">
+        
+        </section>
+    </section>
+
+    <!-- Section one End -->
+
+    
+    <script>
+        let menulist = document.getElementById("menulist");
+        menulist.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menulist.style.maxHeight == "0px"){
+                menulist.style.maxHeight = "300px";
+            }
+            else{
+                menulist.style.maxHeight = "0px";
+            }
+        
+        }
+
+    </script>
+    <script src="https://kit.fontawesome.com/13e4462dd9.js" crossorigin="anonymous"></script>
+</body>
+</html>

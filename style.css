@@ -178,6 +178,7 @@
 
     .content_container{
         height: 120vh;
+        
     }
 
     .header_content{
@@ -187,9 +188,6 @@
         bottom: 7rem;
     }
 
-    /* .header_img-container{
-        display: none;
-    } */
     
     .header_content{
         width: 80%;
@@ -197,8 +195,8 @@
 
     .header_img-container{
         position: absolute;
-        left: 10px;
-        bottom: 13rem;
+        left: 0px;
+        margin-bottom: 3rem;
         
     }
 
